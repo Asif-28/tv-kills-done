@@ -19,9 +19,7 @@ export default function Banner(){
             <div className="flex-1 items-center aos-init aos-animate sm:mx-auto" data-aos="fade-up">
                 <img src='./TV Kills full color logos 1-01.PNG' className='w-[50%] block mx-auto'></img>
                 <p className="text-white text-2xl mt-4 leading-8">
-                    Earth has been taken over by secret invaders who control the
-                    media and corporations. Humanity's only connection to their
-                    past lives comes from extreme escapism.
+                    {"Earth has been taken over by secret invaders who control the media and corporations. Humanity's only connection to their past lives comes from extreme escapism."}
                 </p>
                 <div
                     className="flex justify-center lg:justify-start items-center gap-10 mt-6"

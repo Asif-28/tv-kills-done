@@ -3,8 +3,6 @@ import "aos/dist/aos.css";
 import { use, useEffect } from "react"
 export default function Team() {
 
-
-
     useEffect(() => {
         AOS.init({
             duration: 2000

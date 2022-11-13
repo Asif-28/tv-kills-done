@@ -16,7 +16,7 @@ export default function Faq() {
     const bg2 = {
         backgroundColor: "rgb(7, 7, 27)"
     }
-    const [open, setOpen] = useState(1);
+    const [open, setOpen] = useState(0);
 
     const handleOpen = (value) => {
         setOpen(open === value ? 0 : value);
@@ -63,7 +63,7 @@ export default function Faq() {
                     </AccordionBody>
                 </Accordion>
                 <Accordion open={open === 4}>
-                    <AccordionHeader className='text-transparent hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white' onClick={() => handleOpen(4)}>
+                    <AccordionHeader className='text-left text-transparent hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white' onClick={() => handleOpen(4)}>
                         What are the benifits of holding the Cultpass:-
                     </AccordionHeader>
                     <AccordionBody className='text-lg text-white'>

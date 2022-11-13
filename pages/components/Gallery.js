@@ -133,7 +133,7 @@ export default function Gallery(props) {
             />
             <>
                 <Fab
-                    style={{ position: "absolute", top: "40%", left: 10, zIndex: 10 }}
+                    style={{ position: "absolute", top: "50%", left: 60, zIndex: 10 }}
                     size="small"
                     color="primary"
                     onClick={() => {
@@ -143,7 +143,7 @@ export default function Gallery(props) {
                     <ArrowBackIcon />
                 </Fab>
                 <Fab
-                    style={{ position: "absolute", top: "40%", right: 10, zIndex: 10 }}
+                    style={{ position: "absolute", top: "50%", right: 60, zIndex: 10 }}
                     size="small"
                     color="primary"
                     onClick={() => {
@@ -157,7 +157,7 @@ export default function Gallery(props) {
     );
 }
  
-export const Card = React.memo(function (props) {
+export const Card = React.memo(function cardMemo (props) {
     const { data, dataIndex } = props;
     const { cover } = data[dataIndex];
     return (

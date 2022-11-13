@@ -6,14 +6,15 @@
 
 html{
 box-sizing: border-box;	
-background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 0%, rgb(63, 61, 61) 100%);
+/* background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 0%, rgb(63, 61, 61) 100%); */
+background-color: black;
 width:100vw;
 font-family: 'BAD',"sans-serif";
 position:static;
 overflow-x: scroll;
 }
 body::-webkit-scrollbar {
-  width: 2px;
+  width: 8px;
 }
 
 @media (max-width:768px) {
