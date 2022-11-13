@@ -31,7 +31,7 @@ export default function Team() {
                             class="h-full object-cover"
                         />
                     </div>
-                    <div class="px-4 py-8 text-center">
+                    <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
                         <h1 class="text-3xl font-newton">STEVE</h1>
                         <h3 class="text-xl font-semibold mt-4">Developer</h3>
                         {/* <button class="mt-4">
@@ -63,7 +63,7 @@ export default function Team() {
                             class="h-full object-cover"
                         />
                     </div>
-                    <div class="px-4 py-8 text-center">
+                    <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
                         <h1 class="text-3xl font-newton">HORRISH</h1>
                         <h3 class="text-xl font-semibold mt-4">Project Manager</h3>
                         {/* <button class="mt-4">
@@ -95,7 +95,7 @@ export default function Team() {
                             class="h-full object-cover"
                         />
                     </div>
-                    <div class="px-4 py-8 text-center">
+                    <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
                         <h1 class="text-3xl font-newton">DUKE</h1>
                         <h3 class="text-xl font-semibold mt-4">Content Creator</h3>
                         {/* <button class="mt-4">
@@ -127,7 +127,7 @@ export default function Team() {
                             class="h-full object-cover"
                         />
                     </div>
-                    <div class="px-4 py-8 text-center">
+                    <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
                         <h1 class="text-3xl font-newton">JARED</h1>
                         <h3 class="text-xl font-semibold mt-4">Artist</h3>
                         <button class="mt-4">

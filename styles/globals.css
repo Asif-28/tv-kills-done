@@ -2,17 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "react-alice-carousel/lib/alice-carousel.css";
 
 
 html{
-  background: #000000;  /* fallback for old browsers */
+background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
 /* background: -webkit-linear-gradient(to right, #434343, #000000);  Chrome 10-25, Safari 5.1-6 */
 /* background: linear-gradient(to right, #434343, #000000); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+width: 100%;
 }
-
 body{
-  margin-left: 10px;
-  margin-right: 10px;
+  width: 100vw;
+  overflow-x: hidden;
 }
+

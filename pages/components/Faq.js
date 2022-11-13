@@ -29,99 +29,7 @@ export default function Faq() {
     }, []);
     return (
         // <>   <div class="py-20" id="faq">
-        //     <h1
-        //         class="text-center text-4xl font-newton aos-init"
-        //         data-aos="zoom-in-up"
-        //     >
-        //         FAQ
-        //     </h1>
-        //     <div class="mt-20 aos-init" data-aos="fade-right">
-        //         <div
-        //             class="my-10 cursor-pointer"
-        //             style={bg1}
-        //         >
-        //             <div
-        //                 class="flex justify-between items-center px-8 sm:px-12 py-8"
-        //                 style={bg2}
-        //             >
-        //                 <h4 class="text-xl sm:text-2xl font-newton tracking-widest">
-        //                     DOES THE TVKILLS HAVE DISCORD?
-        //                 </h4>
-        //                 <button class="pointer-cursor z-40" type="button">
-        //                     <svg
-        //                         xmlns="http://www.w3.org/2000/svg"
-        //                         width="26"
-        //                         height="26"
-        //                         fill="currentColor"
-        //                         class="bi bi-chevron-down"
-        //                         viewBox="0 0 16 16"
-        //                     >
-        //                         <path
-        //                             fill-rule="evenodd"
-        //                             d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
-        //                         ></path>
-        //                     </svg>
-        //                 </button>
-        //             </div>
-        //         </div>
-        //         <div
-        //             class="my-10 cursor-pointer"
-        //             style={bg1}
-        //         >
-        //             <div
-        //                 class="flex justify-between items-center px-8 sm:px-12 py-8"
-        //                 style={bg2}
-        //             >
-        //                 <h4 class="text-xl sm:text-2xl font-newton tracking-widest">
-        //                     WHAT ARE THE BENEFITS OF HOLDING THE CULTPASS?
-        //                 </h4>
-        //                 <button class="pointer-cursor z-40" type="button">
-        //                     <svg
-        //                         xmlns="http://www.w3.org/2000/svg"
-        //                         width="26"
-        //                         height="26"
-        //                         fill="currentColor"
-        //                         class="bi bi-chevron-down"
-        //                         viewBox="0 0 16 16"
-        //                     >
-        //                         <path
-        //                             fill-rule="evenodd"
-        //                             d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
-        //                         ></path>
-        //                     </svg>
-        //                 </button>
-        //             </div>
-        //         </div>
-        //         <div
-        //             class="my-10 cursor-pointer"
-        //             style={bg1}
-        //         >
-        //             <div
-        //                 class="flex justify-between items-center px-8 sm:px-12 py-8"
-        //                 style={bg2}
-        //             >
-        //                 <h4 class="text-xl sm:text-2xl font-newton tracking-widest">
-        //                     TOTAL COUNTS OF TV KILLS
-        //                 </h4>
-        //                 <button class="pointer-cursor z-40" type="button">
-        //                     <svg
-        //                         xmlns="http://www.w3.org/2000/svg"
-        //                         width="26"
-        //                         height="26"
-        //                         fill="currentColor"
-        //                         class="bi bi-chevron-down"
-        //                         viewBox="0 0 16 16"
-        //                     >
-        //                         <path
-        //                             fill-rule="evenodd"
-        //                             d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
-        //                         ></path>
-        //                     </svg>
-        //                 </button>
-        //             </div>
-        //         </div>
-        //     </div>
-        // </div></>   
+      
         <>  <h1
             class="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white text-center font-newton aos-init"
             data-aos="zoom-in-up"
@@ -131,39 +39,49 @@ export default function Faq() {
             <div data-aos="fade-right" className='mx-20'>   <Fragment >
                 <Accordion open={open === 1}>
                     <AccordionHeader className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white' onClick={() => handleOpen(1)}>
-                        What is Material Tailwind?
+                        What is the collection size:-
                     </AccordionHeader>
-                    <AccordionBody>
-                        We're not always in the position that we want to be at. We're
-                        constantly growing. We're constantly making mistakes. We're constantly
-                        trying to express ourselves and actualize our dreams.
+                    <AccordionBody className='text-lg text-white'>
+                        TBA
                     </AccordionBody>
                 </Accordion>
                 <Accordion open={open === 2}>
                     <AccordionHeader className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white' onClick={() => handleOpen(2)}>
-                        How to use Material Tailwind?
+                        When is the mint data:-
                     </AccordionHeader>
-                    <AccordionBody>
-                        We're not always in the position that we want to be at. We're
-                        constantly growing. We're constantly making mistakes. We're constantly
-                        trying to express ourselves and actualize our dreams.
+                    <AccordionBody className='text-lg text-white'>
+                        TBA
                     </AccordionBody>
                 </Accordion>
                 <Accordion open={open === 3}>
-                    <AccordionHeader className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white' onClick={() => handleOpen(3)}>
-                        What can I do with Material Tailwind?
+                    <AccordionHeader className='text-transparent hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white' onClick={() => handleOpen(3)}>
+                        What is the Mint price :-
                     </AccordionHeader>
-                    <AccordionBody>
-                        We're not always in the position that we want to be at. We're
-                        constantly growing. We're constantly making mistakes. We're constantly
-                        trying to express ourselves and actualize our dreams.
+                    <AccordionBody className='text-lg text-white'>
+                        TBA
+                    </AccordionBody>
+                </Accordion>
+                <Accordion open={open === 4}>
+                    <AccordionHeader className='text-transparent hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white' onClick={() => handleOpen(4)}>
+                        What are the benifits of holding the Cultpass:-
+                    </AccordionHeader>
+                    <AccordionBody className='text-lg text-white'>
+                        Priority minting in every upcoming drop in TVKills. Lifetime Whitelist for every upcoming drop. Holders will receive 10% of the Royalties received from the main drop. Will be eligible for other exclusive Collab WL raffles.
+                    </AccordionBody>
+                </Accordion>
+                <Accordion open={open === 5}>
+                    <AccordionHeader className='text-transparent hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white' onClick={() => handleOpen(5)}>
+                        Is the team doxxed? :-
+                    </AccordionHeader>
+                    <AccordionBody className='text-lg text-white'>
+                        Doxxing on progress
                     </AccordionBody>
                 </Accordion>
             </Fragment >
             </div>
-         
-            </>
-       
+
+        </>
+
 
     )
 }

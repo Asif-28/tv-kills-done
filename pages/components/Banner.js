@@ -12,33 +12,27 @@ export default function Banner(){
     }, []);
 
     return (
-    <div className=" text-white py-14">
+    <div className=" text-white py-14 mx-12">
         <div
-            className="flex flex-col text-center lg:text-left lg:flex-row justify-between items-center gap-10"
+            className="flex flex-col text-center lg:text-left lg:flex-row items-center"
         >
-            <div className="flex-1 aos-init aos-animate" data-aos="fade-up">
-                <h1
-                    className="text-white text-3xl sm:text-5xl xl:text-6xl leading-relaxed tracking-wider"
-                >
-                    TV KILLS
-                </h1>
-                <p className="text-white mt-10 leading-8">
+            <div className="flex-1 items-center aos-init aos-animate sm:mx-auto" data-aos="fade-up">
+                <img src='./TV Kills full color logos 1-01.PNG' className='w-[50%] block mx-auto'></img>
+                <p className="text-white text-2xl mt-4 leading-8">
                     Earth has been taken over by secret invaders who control the
                     media and corporations. Humanity's only connection to their
                     past lives comes from extreme escapism.
                 </p>
                 <div
-                    className="flex justify-center lg:justify-start items-center gap-10 mt-10"
+                    className="flex justify-center lg:justify-start items-center gap-10 mt-6"
                 >
                     <a
                         href="https://twitter.com/TVKillsCNFT"
                         target="_blank"
                         rel="noreferrer"
-                        data-aos="zoom-in-up-right"
-                        className="aos-init"
                     >
                     <button
-                                className="flex justify-center items-center gap-2  text-blue-700 py-3 px-10 border-2 border-purple-100 transition-all duration-200 ease-in hover:bg-transparent hover:text-white shadow-[0_0_30px_rgba(255,_0,_158,_50%)] rounded-lg"
+                                className=" flex justify-center items-center gap-2 mb-10 border-pink-600 text-blue-700 py-3 px-10 border-2 hover:bg-transparent hover:text-white shadow-[0_0_30px_rgba(255,_0,_158,_50%)] rounded-lg"
                     >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
