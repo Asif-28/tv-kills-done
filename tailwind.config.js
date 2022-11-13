@@ -52,7 +52,11 @@ module.exports = withMT({
           '100%': { bottom: '0' },
         },
       },
+      fontFamily: {
+        BAD: ["BAD", "cursive"],
+      },
     },
+    
   },
   variants: {},
   plugins: [

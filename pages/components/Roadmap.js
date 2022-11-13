@@ -13,7 +13,7 @@ export default function Roadmap() {
     }, []);
 
     return (
-        <div class={styles.section_timeline}>
+        <div id="roadmap" class={styles.section_timeline}>
             <h1
                 class="mb-12 mt-12 text-center text-4xl font-newton aos-init text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
                 data-aos="zoom-in-up"
@@ -46,25 +46,22 @@ export default function Roadmap() {
                         </div>
                         <div
                             id="w_node_d5abcf1f_3370_3eea_ccfd_66f076babfe6_d8bceb12"
-                            class={styles.timeline_right}
+                            className=""
                         >
                             <div class={styles.margin_bottom_xlarge}>
-                                <div class={`${styles.timeline_text} ${styles.sub}`}>
-                                    {/* Twitter Launch:- */}
-                                </div>
-                                <div data-aos="fade-left" class={`${styles.timeline_text} ${styles.paragraph_light} ${styles.left}`}>
-                                    <div className='text-2xl  my-2'>Twitter Launch:</div>
-                                    <div className="text-xl my-2">Launching the Tvkill’s tv into the twitter space
+                                <div data-aos="fade-left" class={`${styles.timeline_text}  `}>
+                                    <div className='lg:text-2xl md:text-xl sm:text-lg  my-2'>Twitter Launch:</div>
+                                    <div className="lg:text-xl md:text-lg sm:text-base my-2">Launching the Tvkill’s tv into the twitter space
                                     </div>
-                                    <div className='text-2xl my-2' >Community building:
+                                    <div className='lg:text-2xl md:text-xl sm:text-lg my-2' >Community building:
                                     </div>
-                                    <div className="text-xl my-2">Building a strong organic Tvkills community in the CNFT Space.</div>
-                                    <div className='text-2xl my-2'>Showlist:
+                                    <div className="lg:text-xl md:text-lg sm:text-base my-2">Building a strong organic Tvkills community in the CNFT Space.</div>
+                                    <div className='lg:text-2xl md:text-xl sm:text-lg my-2'>Showlist:
                                     </div>
-                                    <div className="text-xl my-2">Our very own version of whitelist which is given to the supporters and for the giveaway winners in different activities.</div>
-                                    <div className='text-2xl my-2'>Cultpass:
+                                    <div className="lg:text-xl md:text-lg sm:text-basemy-2">Our very own version of whitelist which is given to the supporters and for the giveaway winners in different activities.</div>
+                                    <div className='lg:text-2xl md:text-xl sm:text-lg my-2'>Cultpass:
                                     </div>
-                                    <div className="text-xl my-2">Cultpass is our way of Honouring the hardcore supporters by inviting them to our TV CULT. Holding Cultpass gives you special benefits and exclusive access.</div>
+                                    <div className="lg:text-xl md:text-lg sm:text-base my-2">Cultpass is our way of Honouring the hardcore supporters by inviting them to our TV CULT. Holding Cultpass gives you special benefits and exclusive access.</div>
 
                                     &nbsp;<br />
                                 </div>
@@ -93,21 +90,19 @@ export default function Roadmap() {
                             ></div>
                         </div>
                         <div
-                            class={styles.timeline_right}
+                            className=""
                         >
                             <div class={styles.margin_bottom_medium}>
 
-                                {/* for heading */}
-                                <div  class={`${styles.timeline_text} ${styles.sub}`}></div>
                                 <div data-aos="zoom-in-up" class={`${styles.timeline_text} ${styles.paragraph_light} ${styles.left}`}>
-                                    <div className='text-2xl  my-2'>Website:</div>
-                                    <div className="text-xl my-2">Revealing the official website of TVKills.</div>
-                                    <div className='text-2xl my-2' >Discord launch:
+                                    <div className='lg:text-2xl md:text-xl sm:text-lg  my-2'>Website:</div>
+                                    <div className="lg:text-xl md:text-lg sm:text-base my-2">Revealing the official website of TVKills.</div>
+                                    <div className='lg:text-2xl md:text-xl sm:text-lg my-2' >Discord launch:
                                     </div>
-                                    <div className="text-xl my-2">The official launch of TVKills discord server.</div>
-                                    <div className='text-2xl my-2'>TVKills Mint:
+                                    <div className="lg:text-xl md:text-lg sm:text-base my-2">The official launch of TVKills discord server.</div>
+                                    <div className='lg:text-2xl md:text-xl sm:text-lg my-2'>TVKills Mint:
                                     </div>
-                                    <div className="text-xl my-2">Big day the official minting of TVKills.</div>
+                                    <div className="lg:text-xl md:text-lg sm:text-base my-2">Big day the official minting of TVKills.</div>
 
                                 </div>
                             </div>
@@ -136,7 +131,7 @@ export default function Roadmap() {
                             ></div>
                         </div>
                         <div
-                            class={styles.timeline_right}
+                            className=""
                         // style={styles.opacityChange}
                         >
                             <div class={styles.margin_bottom_medium}>
@@ -145,10 +140,7 @@ export default function Roadmap() {
                                 {/* for heading */}
 
                                 <div data-aos="fade-up" class={`${styles.timeline_text} ${styles.sub}`}>
-                                    <div className='text-2xl  my-2'>Staking:</div>
-                                </div>
-                                <div class={`${styles.timeline_text} ${styles.paragraph_light} ${styles.left}`}>
-                                <br />
+                                    <div className='border-pink-900 lg:text-2xl md:text-xl sm:text-lg  my-2'>Staking:</div>
                                 </div>
                             </div>
                         </div>

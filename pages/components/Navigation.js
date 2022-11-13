@@ -1,9 +1,42 @@
 import React from 'react';
 
 export default function Navigation(){
+
+
+    const goToGallery = () => {
+        const element = document.getElementById('gallery');
+        console.log(element)
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+    const goToRoadmap = () => {
+        const element = document.getElementById('roadmap');
+        console.log(element)
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+    const goToTeam = () => {
+        const element = document.getElementById('team');
+        console.log(element)
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+    const goToFaq = () => {
+        const element = document.getElementById('faq');
+        console.log(element)
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     return (
         <Navbar className="bg-transparent text-white">
-            <NavbarBrand href="#">
+            <NavbarBrand >
 
             {/* add logo */}
 
@@ -18,17 +51,17 @@ export default function Navigation(){
             <NavbarToggler className='border-none' />
             <NavbarCollapse>
                 <NavbarNav orientation="end">
-                    <NavbarItem className=''>
-                        <NavbarLink className="" href="#">Gallery</NavbarLink>
+                    <NavbarItem  className=''>
+                        <NavbarLink ><span onClick={goToGallery}>Gallery</span></NavbarLink>
                     </NavbarItem>
                     <NavbarItem>
-                        <NavbarLink className="" href="#">Roadmap</NavbarLink>
+                        <NavbarLink className="" ><span onClick={goToRoadmap}>Roadmap</span></NavbarLink>
                     </NavbarItem>
                     <NavbarItem>
-                        <NavbarLink className="" href="#">Team</NavbarLink>
+                        <NavbarLink className="" ><span onClick={goToTeam}>Team</span></NavbarLink>
                     </NavbarItem>
                     <NavbarItem>
-                        <NavbarLink className="" href="#">FAQ</NavbarLink>
+                        <NavbarLink className="" ><span onClick={goToFaq}>FAQ</span></NavbarLink>
                     </NavbarItem>
                 </NavbarNav>
             </NavbarCollapse>

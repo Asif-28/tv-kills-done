@@ -1,4 +1,36 @@
 export default function Footer(){
+
+    const goToGallery = () => {
+        const element = document.getElementById('gallery');
+        console.log(element)
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+    const goToRoadmap = () => {
+        const element = document.getElementById('roadmap');
+        console.log(element)
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+    const goToTeam = () => {
+        const element = document.getElementById('team');
+        console.log(element)
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+    const goToFaq = () => {
+        const element = document.getElementById('faq');
+        console.log(element)
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     return <>
         <div class="pt-20 pb-10 ml-20">
             <div class="flex flex-col md:flex-row md:justify-between">
@@ -17,28 +49,28 @@ export default function Footer(){
                         <li>
                             <a
                                 class="transition-all duration-200 ease-linear hover:text-blue-400"
-                                href="https://www.tvkills.co/#gallery"
+                                onClick={goToGallery}
                             >Gallery</a
                             >
                         </li>
                         <li>
                             <a
                                 class="transition-all duration-200 ease-linear hover:text-blue-400"
-                                href="https://www.tvkills.co/#roadmap"
+                                onClick={goToRoadmap}
                             >Roadmap</a
                             >
                         </li>
                         <li>
                             <a
                                 class="transition-all duration-200 ease-linear hover:text-blue-400"
-                                href="https://www.tvkills.co/#team"
+                                onClick={goToTeam}
                             >Team</a
                             >
                         </li>
                         <li>
                             <a
                                 class="transition-all duration-200 ease-linear hover:text-blue-400"
-                                href="https://www.tvkills.co/#faq"
+                                onClick={goToFaq}
                             >FAQ</a
                             >
                         </li>
@@ -53,7 +85,7 @@ export default function Footer(){
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <button className=" flex justify-center items-center gap-2 mb-10 border-pink-600 text-blue-700 py-3 px-10 border-2 hover:bg-transparent hover:text-white shadow-[0_0_30px_rgba(255,_0,_158,_50%)] rounded-lg">
+                            <button className=" flex justify-center items-center gap-2 mb-10 border-pink-900 text-blue-700 py-3 px-10 border-2 hover:bg-transparent hover:text-white shadow-[0_0_35px_rgba(255,_0,_158,_70%)] rounded-xl">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="16"

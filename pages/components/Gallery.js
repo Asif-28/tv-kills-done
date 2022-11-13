@@ -104,7 +104,7 @@ export default function Gallery(props) {
         AOS.refresh();
     }, []);
     return (
-        <div style={{ width: "100%", position: "relative" }}>
+        <div id="gallery" style={{ width: "100%", position: "relative" }}>
             <h1
                 class="mb-12 text-center text-4xl font-newton aos-init text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
                 data-aos="zoom-in-up"

@@ -31,6 +31,7 @@ export default function Faq() {
         // <>   <div class="py-20" id="faq">
       
         <>  <h1
+            id='faq'
             class="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white text-center font-newton aos-init"
             data-aos="zoom-in-up"
         >

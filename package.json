@@ -25,6 +25,7 @@
     "react-alice-carousel": "^2.6.4",
     "react-chrono": "^1.19.2",
     "react-dom": "18.2.0",
+    "react-hash-scroll": "^1.4.7",
     "react-icons": "^4.6.0",
     "react-multi-carousel": "^2.8.2",
     "react-owl-carousel": "^2.3.3",

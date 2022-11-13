@@ -2,17 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "react-alice-carousel/lib/alice-carousel.css";
 
 
 html{
-background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
-/* background: -webkit-linear-gradient(to right, #434343, #000000);  Chrome 10-25, Safari 5.1-6 */
-/* background: linear-gradient(to right, #434343, #000000); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-width: 100%;
+box-sizing: border-box;	
+background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 0%, rgb(63, 61, 61) 100%);
+width:100vw;
+font-family: 'BAD',"sans-serif";
+position:static;
+overflow-x: scroll;
+}
+body::-webkit-scrollbar {
+  width: 2px;
+}
+
+@media (max-width:768px) {
+	html{
+		width: 100%;
+    margin: auto;
+	}
 }
 body{
-  width: 100vw;
   overflow-x: hidden;
 }
 
+@font-face {
+  font-family: "BAD";
+  src: url("../public/Bad Signal.otf");
+}

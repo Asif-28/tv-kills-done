@@ -32,7 +32,7 @@ export default function Banner(){
                         rel="noreferrer"
                     >
                     <button
-                                className=" flex justify-center items-center gap-2 mb-10 border-pink-600 text-blue-700 py-3 px-10 border-2 hover:bg-transparent hover:text-white shadow-[0_0_30px_rgba(255,_0,_158,_50%)] rounded-lg"
+                                className=" flex justify-center items-center gap-2 mb-10 border-pink-900 text-blue-700 py-3 px-10 border-2 hover:bg-transparent hover:text-white shadow-[0_0_35px_rgba(255,_0,_158,_70%)] rounded-xl"
                     >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
