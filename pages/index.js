@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Navigation />
       <Banner/>
-      <Gallery/>
+      {/* <Gallery/> */}
       <Roadmap/>
       <Team/>
       <Faq/>
