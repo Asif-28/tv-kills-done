@@ -10,7 +10,7 @@ export default function Team() {
   }, []);
   return (
     <>
-      <div class="py-20 overflow-x-hidden" id="team">
+      <div class="py-20 mb-12 overflow-x-hidden overflow-y-hidden" id="team">
         <h1
           class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-center text-4xl font-newton aos-init"
           data-aos="zoom-in-up"
@@ -19,7 +19,7 @@ export default function Team() {
         </h1>
         <div class="mt-20 flex justify-center flex-wrap gap-10">
           <div
-            class="flex flex-col bg-white w-fit text-black aos-init max-h-[70vh] max-w-[80vw] "
+            class="flex flex-col bg-white w-fit text-black aos-init max-h-[70vh] max-w-[80vw] mb-36 "
             data-aos="fade-right"
           >
             <div class="h-96">
@@ -47,7 +47,7 @@ export default function Team() {
             </div>
           </div>
           <div
-            class="flex flex-col bg-white w-fit text-black aos-init max-h-[70vh] max-w-[80vw]"
+            class="flex flex-col bg-white w-fit text-black aos-init max-h-[70vh] max-w-[80vw] mb-36"
             data-aos="zoom-out"
           >
             <div class="h-96">
@@ -79,7 +79,7 @@ export default function Team() {
             </div>
           </div>
           <div
-            class="flex flex-col bg-white w-fit text-black aos-init max-h-[70vh] max-w-[80vw]"
+            class="flex flex-col bg-white w-fit text-black aos-init max-h-[70vh] max-w-[80vw] mb-36"
             data-aos="zoom-out"
           >
             <div class="h-96">
@@ -107,7 +107,7 @@ export default function Team() {
             </div>
           </div>
           <div
-            class="flex flex-col bg-white w-fit text-black aos-init max-h-[70vh] max-w-[80vw]"
+            class="flex flex-col bg-white w-fit text-black aos-init max-h-[70vh] max-w-[80vw] mb-36"
             data-aos="fade-left"
           >
             <div class="h-96">
