@@ -78,7 +78,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div class="flex-1 mt-10 md:mt-4 pl-5">
+          <div class="flex-1 mt-10 md:mt-4 pl-7">
             <div class="flex flex-col xs:flex-row sm:flex-col lg:flex-row md:items-center gap-6 w-fit md:gap-10">
               <a
                 href="https://twitter.com/TVKillsCNFT"

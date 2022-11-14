@@ -93,7 +93,7 @@
     transform: translateX(-45vw);
   }
 }
-@media (min-width: 401px) and (max-width: 500px) {
+@media (min-width: 401px) and (max-width: 650px) {
   .timeline_centre {
     /* position: absolute; */
     transform: translateX(-41vw);
