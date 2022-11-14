@@ -65,43 +65,31 @@ export const data = [
   },
 ];
 
-// {
-//     cover: "./1.PNG",
-//     title: "picture",
-// },
-//     {
-//         cover: "./2.PNG",
-//         title: "picture",
-//     },
-//     {
-//         cover: "./3.PNG",
-//         title: "picture",
-//     },
-//     {
-//         cover: "./4.PNG",
-//         title: "picture",
-//     },
-//     {
-//         cover: "./5.PNG",
-//         title: "picture",
-//     },
-//     {
-//         cover: "./10.jpg",
-//         title: "picture",
-//     },
-//     {
-//         cover: "./11.jpg",
-//         title: "picture",
-//     },
-// ];
 
 export default function Gallery(props) {
+
+  
+
+
+
   const ref = React.useRef();
+
+  const [width, setWidth] = React.useState(undefined)
   useEffect(() => {
     AOS.init({
       duration: 2000,
     });
     AOS.refresh();
+    
+    
+
+    function handleResize() {
+      // Set window width/height to state
+      setWidth(()=>window.innerWidth);
+    }
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
   }, []);
   return (
     <div
@@ -119,7 +107,7 @@ export default function Gallery(props) {
         render={(parentWidth, carouselRef) => {
           let currentVisibleSlide = 5;
           if (parentWidth <= 1440) currentVisibleSlide = 5;
-          if (parentWidth <= 1080) currentVisibleSlide = 3;
+          if (parentWidth <= 700) currentVisibleSlide = 3;
           return (
             <StackedCarousel
               ref={carouselRef}
@@ -135,7 +123,7 @@ export default function Gallery(props) {
         }}
       />
       <>
-        <Fab
+        {width > 700 ? <> <Fab
           style={{ position: "absolute", top: "50%", left: 60, zIndex: 10 }}
           size="small"
           color="primary"
@@ -145,16 +133,19 @@ export default function Gallery(props) {
         >
           <ArrowBackIcon />
         </Fab>
-        <Fab
-          style={{ position: "absolute", top: "50%", right: 60, zIndex: 10 }}
-          size="small"
-          color="primary"
-          onClick={() => {
-            ref.current?.goNext(6);
-          }}
-        >
-          <ArrowForwardIcon />
-        </Fab>
+          <Fab
+            style={{ position: "absolute", top: "50%", right: 60, zIndex: 10 }}
+            size="small"
+            color="primary"
+            onClick={() => {
+              ref.current?.goNext(6);
+            }}
+          >
+            <ArrowForwardIcon />
+          </Fab>
+</> :
+      <>        </> }
+       
       </>
     </div>
   );
@@ -163,6 +154,13 @@ export default function Gallery(props) {
 export const Card = React.memo(function cardMemo(props) {
   const { data, dataIndex } = props;
   const { cover } = data[dataIndex];
+  const imageStyle = {
+    height: "100%",
+    width: "45%",
+    borderRadius: 0,
+    position: "relative",
+    left: "25%",
+  }
   return (
     <div
       style={{
@@ -174,13 +172,8 @@ export const Card = React.memo(function cardMemo(props) {
       className="my-slide-component"
     >
       <img
-        style={{
-          height: "100%",
-          width: "45%",
-          borderRadius: 0,
-          position: "relative",
-          left: "25%",
-        }}
+        // style={imageStyle}
+        className="lg:w-[30vw] md:w-[30vw] sm:w-[40vw] h-[300px] border-none relative  md:left-[5vw] sm:left-[5vw] lg:left-[5vw] xsm:left-[12vw]"
         draggable={true}
         src={cover}
       />

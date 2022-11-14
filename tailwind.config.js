@@ -21,6 +21,9 @@ module.exports = withMT({
         // if you are using drawer variant bottom
         'drawer-bottom': 'drawer-bottom 0.3s',
       },
+      screens:{
+        'xsm':"400px"
+      },
       keyframes: {
         // if you are using the animate variant of the modal
         modal: {
