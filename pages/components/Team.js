@@ -19,7 +19,7 @@ export default function Team() {
         </h1>
         <div class="mt-20 flex justify-center flex-wrap gap-10">
           <div
-            class="flex flex-col bg-white w-fit text-black aos-init max-h-[70vh] max-w-[80vw] mb-36 "
+            class="flex flex-col bg-white w-fit text-black aos-init max-h-[70vh] max-w-[90vw] mb-36 "
             data-aos="fade-right"
           >
             <div class="h-96">
@@ -47,7 +47,7 @@ export default function Team() {
             </div>
           </div>
           <div
-            class="flex flex-col bg-white w-fit text-black aos-init max-h-[70vh] max-w-[80vw] mb-36"
+            class="flex flex-col bg-white w-fit text-black aos-init max-h-[70vh] max-w-[90vw] mb-36"
             data-aos="zoom-out"
           >
             <div class="h-96">
@@ -79,7 +79,7 @@ export default function Team() {
             </div>
           </div>
           <div
-            class="flex flex-col bg-white w-fit text-black aos-init max-h-[70vh] max-w-[80vw] mb-36"
+            class="flex flex-col bg-white w-fit text-black aos-init max-h-[70vh] max-w-[90vw] mb-36"
             data-aos="zoom-out"
           >
             <div class="h-96">
@@ -107,7 +107,7 @@ export default function Team() {
             </div>
           </div>
           <div
-            class="flex flex-col bg-white w-fit text-black aos-init max-h-[70vh] max-w-[80vw] mb-36"
+            class="flex flex-col bg-white w-fit text-black aos-init max-h-[70vh] max-w-[90vw] mb-36"
             data-aos="fade-left"
           >
             <div class="h-96">
