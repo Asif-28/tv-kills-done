@@ -32,7 +32,7 @@ html {
 }
 
 body {
-  background: linear-gradient(to right, #434343, #000000);
+  /* background: linear-gradient(to right, #434343, #000000); */
 
-  /* background: #0000; */
+  background: #0000;
 }

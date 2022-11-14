@@ -93,6 +93,12 @@
     transform: translateX(-45vw);
   }
 }
+@media (min-width: 401px) and (max-width: 500px) {
+  .timeline_centre {
+    /* position: absolute; */
+    transform: translateX(-41vw);
+  }
+}
 
 .timeline_date_text {
   position: -webkit-sticky;
