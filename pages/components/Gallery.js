@@ -104,7 +104,7 @@ export default function Gallery(props) {
         AOS.refresh();
     }, []);
     return (
-        <div id="gallery" style={{ width: "100%", position: "relative" }}>
+        <div id="gallery" style={{ width: "100%", position: "relative", overflowX:"hidden" }}>
             <h1
                 class="mb-12 text-center text-4xl font-newton aos-init text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
                 data-aos="zoom-in-up"
@@ -163,9 +163,10 @@ export const Card = React.memo(function cardMemo (props) {
     return (
         <div
             style={{
-                width: "100%",
+                width: "90%",
                 height: 300,
                 userSelect: "none",
+                margin:"auto"
             }}
             className="my-slide-component"
         >
@@ -175,7 +176,8 @@ export const Card = React.memo(function cardMemo (props) {
                     width: "45%",
                     borderRadius: 0,
                     position:"relative",
-                    left:"25%"
+                    left:"25%",
+                    
                 }}
                 draggable={true}
                 src={cover}

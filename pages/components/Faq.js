@@ -37,9 +37,9 @@ export default function Faq() {
         >
             FAQ
         </h1>
-            <div data-aos="fade-right" className='mx-20'>   <Fragment >
+            <div data-aos="fade-right" className='mx-20 overflow-x-hidden'>   <Fragment >
                 <Accordion open={open === 1}>
-                    <AccordionHeader className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white' onClick={() => handleOpen(1)}>
+                    <AccordionHeader className='text-transparent text-left bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white' onClick={() => handleOpen(1)}>
                         What is the collection size:-
                     </AccordionHeader>
                     <AccordionBody className='text-lg text-white'>
@@ -47,7 +47,7 @@ export default function Faq() {
                     </AccordionBody>
                 </Accordion>
                 <Accordion open={open === 2}>
-                    <AccordionHeader className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white' onClick={() => handleOpen(2)}>
+                    <AccordionHeader className='text-transparent text-left bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white' onClick={() => handleOpen(2)}>
                         When is the mint data:-
                     </AccordionHeader>
                     <AccordionBody className='text-lg text-white'>
@@ -55,7 +55,7 @@ export default function Faq() {
                     </AccordionBody>
                 </Accordion>
                 <Accordion open={open === 3}>
-                    <AccordionHeader className='text-transparent hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white' onClick={() => handleOpen(3)}>
+                    <AccordionHeader className='text-transparent hover:text-transparent text-left bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white' onClick={() => handleOpen(3)}>
                         What is the Mint price :-
                     </AccordionHeader>
                     <AccordionBody className='text-lg text-white'>
@@ -63,7 +63,7 @@ export default function Faq() {
                     </AccordionBody>
                 </Accordion>
                 <Accordion open={open === 4}>
-                    <AccordionHeader className='text-left text-transparent hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white' onClick={() => handleOpen(4)}>
+                    <AccordionHeader className='text-left text-transparent hover:text-transparent text-left bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white' onClick={() => handleOpen(4)}>
                         What are the benifits of holding the Cultpass:-
                     </AccordionHeader>
                     <AccordionBody className='text-lg text-white'>
@@ -71,7 +71,7 @@ export default function Faq() {
                     </AccordionBody>
                 </Accordion>
                 <Accordion open={open === 5}>
-                    <AccordionHeader className='text-transparent hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white' onClick={() => handleOpen(5)}>
+                    <AccordionHeader className='text-transparent hover:text-transparent text-left bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white' onClick={() => handleOpen(5)}>
                         Is the team doxxed? :-
                     </AccordionHeader>
                     <AccordionBody className='text-lg text-white'>

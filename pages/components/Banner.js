@@ -12,7 +12,7 @@ export default function Banner(){
     }, []);
 
     return (
-    <div className=" text-white py-14 mx-12">
+    <div className=" text-white py-14 mx-12 overflow-x-hidden">
         <div
             className="flex flex-col text-center lg:text-left lg:flex-row items-center"
         >

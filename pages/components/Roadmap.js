@@ -33,7 +33,7 @@ export default function Roadmap() {
                             id="w_node_d5abcf1f_3370_3eea_ccfd_66f076babfe1_d8bceb12"
                             class={styles.timeline_left}                        >
                             <div class={styles.timeline_date_text}>
-                                <p className="text-transparent hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white">Phase 01</p>
+                                <p className="text-transparent hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white  text-xl md:text-3xl lg:text-4xl sm:translate-x-0  md:translate-x-0 lg:translate-x-[-12]">Phase 01</p>
                             </div>
                         </div>
                         <div
@@ -78,7 +78,7 @@ export default function Roadmap() {
                         // style={styles.opacityChange}
                         >
                             <div class={styles.timeline_date_text}>
-                                <p className="text-transparent hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white">Phase 02</p>
+                                <p className="text-transparent hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white text-xl md:text-3xl lg:text-4xl">Phase 02</p>
                             </div>
                         </div>
                         <div
@@ -118,7 +118,7 @@ export default function Roadmap() {
                         // style={styles.opacityChange}
                         >
                             <div class={styles.timeline_date_text}>
-                                <p className="text-transparent hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white">Phase 03</p>
+                                <p className="text-transparent hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white text-xl md:text-3xl lg:text-4xl">Phase 03</p>
                             </div>
                         </div>
                         <div
