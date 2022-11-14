@@ -19,7 +19,7 @@ export default function Banner() {
         >
           <img
             src="./TV Kills full color logos 1-01.PNG"
-            className="w-[40%] block mx-auto"
+            className="w-[30%] block mx-auto"
           ></img>
           <p className="text-white text-2xl mt-4 leading-8">
             {
