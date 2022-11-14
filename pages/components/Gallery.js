@@ -114,9 +114,8 @@ export default function Gallery(props) {
         }}
       />
       <>
-        {width > 700 ? (
+        {width > 780 ? (
           <>
-            {" "}
             <Fab
               style={{ position: "absolute", top: "50%", left: 60, zIndex: 10 }}
               size="small"
