@@ -87,7 +87,7 @@ export default function Faq() {
               className="text-transparent hover:text-transparent text-left bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white"
               onClick={() => handleOpen(5)}
             >
-              Is the team doxxed? ?
+              Is the team doxxed ?
             </AccordionHeader>
             <AccordionBody className="text-lg text-white">
               Doxxing on progress
