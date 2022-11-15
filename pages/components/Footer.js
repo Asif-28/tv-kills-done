@@ -39,7 +39,7 @@ export default function Footer() {
               TV KILLS
             </h1>
             <p class=" text-2xl mt-6 text-transparent hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white">
-              © 2022 All rights reserved
+              2022 All rights reserved
             </p>
           </div>
           <div class="flex-1 mt-10 md:mt-3">
