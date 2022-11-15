@@ -51,31 +51,31 @@ export default function Roadmap() {
             >
               <div class={styles.margin_bottom_xlarge}>
                 <div data-aos="fade-right" class={`${styles.timeline_text}  `}>
-                  <div className="lg:text-2xl md:text-xl sm:text-lg  my-2">
+                  <div className="lg:text-2xl md:text-xl sm:text-lg  my-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                     Twitter Launch:
                   </div>
-                  <div className="lg:text-xl md:text-lg sm:text-base my-2">
+                  <div className="lg:text-lg md:text-base sm:text-sm my-2 md:tracking-wide">
                     Launching the Tvkill’s tv into the twitter space
                   </div>
-                  <div className="lg:text-2xl md:text-xl sm:text-lg my-2">
+                  <div className="lg:text-2xl md:text-xl sm:text-lg my-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                     Community building:
                   </div>
-                  <div className="lg:text-xl md:text-lg sm:text-base my-2">
+                  <div className="lg:text-lg md:text-base sm:text-sm my-2 md:tracking-wide ">
                     Building a strong organic Tvkills community in the CNFT
                     Space.
                   </div>
-                  <div className="lg:text-2xl md:text-xl sm:text-lg my-2">
+                  <div className="lg:text-2xl md:text-xl sm:text-lg my-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                     Showlist:
                   </div>
-                  <div className="lg:text-xl md:text-lg sm:text-basemy-2">
+                  <div className="lg:text-lg md:text-base sm:text-sm my-2 md:tracking-wide ">
                     Our very own version of whitelist which is given to the
                     supporters and for the giveaway winners in different
                     activities.
                   </div>
-                  <div className="lg:text-2xl md:text-xl sm:text-lg my-2">
+                  <div className="lg:text-2xl md:text-xl sm:text-lg my-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                     Cultpass:
                   </div>
-                  <div className="lg:text-xl md:text-lg sm:text-base my-2">
+                  <div className="lg:text-lg md:text-base sm:text-sm my-2 md:tracking-wide ">
                     Cultpass is our way of Honouring the hardcore supporters by
                     inviting them to our TV CULT. Holding Cultpass gives you
                     special benefits and exclusive access.
@@ -113,22 +113,22 @@ export default function Roadmap() {
                   data-aos="zoom-in-up"
                   class={`${styles.timeline_text} ${styles.paragraph_light} ${styles.left}`}
                 >
-                  <div className="lg:text-2xl md:text-xl sm:text-lg  my-2">
+                  <div className="lg:text-2xl md:text-xl sm:text-lg  my-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                     Website:
                   </div>
-                  <div className="lg:text-xl md:text-lg sm:text-base my-2">
+                  <div className="lg:text-lg md:text-base sm:text-sm my-2 md:tracking-wide ">
                     Revealing the official website of TVKills.
                   </div>
-                  <div className="lg:text-2xl md:text-xl sm:text-lg my-2">
+                  <div className="lg:text-2xl md:text-xl sm:text-lg my-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                     Discord launch:
                   </div>
-                  <div className="lg:text-xl md:text-lg sm:text-base my-2">
+                  <div className="lg:text-lg md:text-base sm:text-sm my-2 md:tracking-wide ">
                     The official launch of TVKills discord server.
                   </div>
-                  <div className="lg:text-2xl md:text-xl sm:text-lg my-2">
+                  <div className="lg:text-2xl md:text-xl sm:text-lg my-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                     TVKills Mint:
                   </div>
-                  <div className="lg:text-xl md:text-lg sm:text-base my-2">
+                  <div className="lg:text-lg md:text-base sm:text-sm my-2 md:tracking-wide ">
                     Big day the official minting of TVKills.
                   </div>
                 </div>

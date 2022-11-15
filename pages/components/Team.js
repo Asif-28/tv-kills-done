@@ -26,7 +26,7 @@ export default function Team() {
               <img src="./team1.PNG" alt="STEVE" class="h-full object-cover" />
             </div>
             <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
-              <h1 class="text-3xl font-newton">STEVE</h1>
+              <h1 class="text-4xl font-newton">STEVE</h1>
               <h3 class="text-xl font-semibold mt-4">Developer</h3>
               {/* <button class="mt-4">
                             <a target="_blank" rel="noreferrer"
@@ -58,7 +58,7 @@ export default function Team() {
               />
             </div>
             <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
-              <h1 class="text-3xl font-newton">HORRISH</h1>
+              <h1 class="text-4xl font-newton">HORRISH</h1>
               <h3 class="text-xl font-semibold mt-4">Project Manager</h3>
               {/* <button class="mt-4">
                             <a target="_blank" rel="noreferrer"
@@ -86,8 +86,8 @@ export default function Team() {
               <img src="./team3.PNG" alt="DUKE" class="h-full object-cover" />
             </div>
             <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
-              <h1 class="text-3xl font-newton">DUKE</h1>
-              <h3 class="text-xl font-semibold mt-4">Content Creator</h3>
+              <h1 class="text-4xl font-newton">DUKE</h1>
+              <h3 class="text-xl font-semibold mt-4 ">Content Creator</h3>
               {/* <button class="mt-4">
                             <a target="_blank" rel="noreferrer"
                             ><svg
@@ -114,7 +114,7 @@ export default function Team() {
               <img src="./team4.PNG" alt="JARED" class="h-full object-cover" />
             </div>
             <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
-              <h1 class="text-3xl font-newton">JARED</h1>
+              <h1 class="text-4xl font-newton">JARED</h1>
               <h3 class="text-xl font-semibold mt-4">Artist</h3>
               <button class="mt-4">
                 <a
