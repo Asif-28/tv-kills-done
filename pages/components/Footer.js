@@ -1,3 +1,4 @@
+import CopyrightIcon from "@material-ui/icons/Copyright";
 export default function Footer() {
   const goToGallery = () => {
     const element = document.getElementById("gallery");
@@ -34,11 +35,18 @@ export default function Footer() {
     <>
       <div class="pt-20 pb-10 box-border ml-20 overflow-x-hidden">
         <div class="flex flex-col md:flex-row md:justify-between">
-          <div class="flex-1">
+          <div class="flex-1 ">
             <h1 class=" text-4xl text-transparent hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white text-2xl lg:text-4xl leading-relaxed font-newton tracking-wider">
               TV KILLS
             </h1>
-            <p class=" text-2xl mt-6 text-transparent hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white">
+            <p class=" text-2xl mt-6 text-transparent hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white ">
+              <CopyrightIcon
+                style={{
+                  color: "purple",
+                  marginBottom: "5px",
+                  marginRight: "3px",
+                }}
+              />
               2022 All rights reserved
             </p>
           </div>
