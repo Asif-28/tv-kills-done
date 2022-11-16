@@ -43,7 +43,7 @@ export default function Footer() {
               src="./TV Kills full color logos 1-01.PNG"
               className="w-[20%] block mx-left"
             ></img>
-            <p class=" text-base mt-6  hover:text-transparent bg-clip-text  text-white ">
+            <p class=" text-base mt-6  bg-clip-text  text-white ">
               <CopyrightIcon
                 style={{
                   color: "purple",

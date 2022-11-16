@@ -22,8 +22,8 @@ export default function Team() {
             class="flex flex-col bg-white w-fit text-black aos-init max-h-[70vh] max-w-[95vw] mb-36 "
             data-aos="fade-right"
           >
-            <div class="h-96">
-              <img src="./dev.png" alt="STEVE" class="h-full object-cover" />
+            <div class="h-96  ">
+              <img src="./dev.png" alt="STEVE" class="h-full  " />
             </div>
             <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
               <h1 class="text-3xl font-newton">STEVE</h1>
