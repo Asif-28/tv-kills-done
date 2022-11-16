@@ -33,7 +33,7 @@ export default function Faq() {
       {" "}
       <h1
         id="faq"
-        class="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white text-center font-newton aos-init"
+        class="text-4xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white text-center font-newton aos-init"
         data-aos="zoom-in-up"
       >
         FAQ
@@ -43,39 +43,45 @@ export default function Faq() {
         <Fragment>
           <Accordion open={open === 1}>
             <AccordionHeader
-              className="text-transparent text-left bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white"
+              className="text-transparent font-NORWESTER text-left bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white"
               onClick={() => handleOpen(1)}
             >
               What is the collection size ?
             </AccordionHeader>
-            <AccordionBody className="text-lg text-white">TBA</AccordionBody>
+            <AccordionBody className="text-lg font-NORWESTER text-white">
+              TBA
+            </AccordionBody>
           </Accordion>
           <Accordion open={open === 2}>
             <AccordionHeader
-              className="text-transparent text-left bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white"
+              className="text-transparent font-NORWESTER text-left bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white"
               onClick={() => handleOpen(2)}
             >
               When is the mint data ?
             </AccordionHeader>
-            <AccordionBody className="text-lg text-white">TBA</AccordionBody>
+            <AccordionBody className="text-lg font-NORWESTER text-white">
+              TBA
+            </AccordionBody>
           </Accordion>
           <Accordion open={open === 3}>
             <AccordionHeader
-              className="text-transparent hover:text-transparent text-left bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white"
+              className="text-transparent font-NORWESTER hover:text-transparent text-left bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white"
               onClick={() => handleOpen(3)}
             >
               What is the Mint price ?
             </AccordionHeader>
-            <AccordionBody className="text-lg text-white">TBA</AccordionBody>
+            <AccordionBody className="text-lg font-NORWESTER text-white">
+              TBA
+            </AccordionBody>
           </Accordion>
           <Accordion open={open === 4}>
             <AccordionHeader
-              className="text-left text-transparent hover:text-transparent text-left bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white"
+              className="text-left font-NORWESTER text-transparent hover:text-transparent text-left bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white"
               onClick={() => handleOpen(4)}
             >
               What are the benifits of holding the Cultpass ?
             </AccordionHeader>
-            <AccordionBody className="text-lg text-white">
+            <AccordionBody className="text-lg text-white font-NORWESTER">
               Priority minting in every upcoming drop in TVKills. Lifetime
               Whitelist for every upcoming drop. Holders will receive 10% of the
               Royalties received from the main drop. Will be eligible for other
@@ -84,12 +90,12 @@ export default function Faq() {
           </Accordion>
           <Accordion open={open === 5}>
             <AccordionHeader
-              className="text-transparent hover:text-transparent text-left bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white"
+              className="text-transparent font-NORWESTER hover:text-transparent text-left bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white"
               onClick={() => handleOpen(5)}
             >
               Is the team doxxed ?
             </AccordionHeader>
-            <AccordionBody className="text-lg text-white">
+            <AccordionBody className="text-lg font-NORWESTER text-white">
               Doxxing on progress
             </AccordionBody>
           </Accordion>

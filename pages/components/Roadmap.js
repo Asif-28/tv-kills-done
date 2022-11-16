@@ -80,7 +80,7 @@ export default function Roadmap() {
                     inviting them to our TV CULT. Holding Cultpass gives you
                     special benefits and exclusive access.
                   </div>
-                  &nbsp;
+
                   <br />
                 </div>
               </div>
@@ -136,11 +136,11 @@ export default function Roadmap() {
             </div>
           </div>
           <div
-            data_w_id="5b7ae63b_6f00_e542_a023_96ea5c4a96e3"
+            data_w_id="0488106f_ce92_9b7b_01c3_8ad75f3f5e35"
             class={styles.timeline_item}
           >
             <div
-              id="w_node__5b7ae63b_6f00_e542_a023_96ea5c4a96e4_d8bceb12"
+              id="w_node__0488106f_ce92_9b7b_01c3_8ad75f3f5e36_d8bceb12"
               class={styles.timeline_left}
               // style={styles.opacityChange}
             >
@@ -151,27 +151,23 @@ export default function Roadmap() {
               </div>
             </div>
             <div
-              id="w_node__5b7ae63b_6f00_e542_a023_96ea5c4a96e7_d8bceb12"
+              id="w_node__0488106f_ce92_9b7b_01c3_8ad75f3f5e39_d8bceb12"
               class={styles.timeline_centre}
             >
-              <div
-                class={styles.timeline_circle}
-                // style={styles.backgroundChange}
-              ></div>
+              <div class={styles.timeline_circle}></div>
             </div>
-            <div
-              className=""
-              // style={styles.opacityChange}
-            >
+            <div className="">
               <div class={styles.margin_bottom_medium}>
-                {/* for heading */}
-
                 <div
-                  data-aos="fade-up"
-                  class={`${styles.timeline_text} ${styles.sub}`}
+                  data-aos="zoom-in-up"
+                  class={`${styles.timeline_text} ${styles.paragraph_light} ${styles.left}`}
                 >
-                  <div className="border-pink-900 lg:text-2xl md:text-xl sm:text-lg  my-2">
-                    Staking:
+                  <div className="lg:text-2xl md:text-xl sm:text-lg  my-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+                    utility
+                  </div>
+                  <div className="lg:text-lg md:text-base sm:text-sm my-2 md:tracking-wide">
+                    The utility and staking of the Cultpass and the main drop
+                    will be revealed soon in Discord .
                   </div>
                 </div>
               </div>

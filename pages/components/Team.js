@@ -23,11 +23,13 @@ export default function Team() {
             data-aos="fade-right"
           >
             <div class="h-96">
-              <img src="./team1.PNG" alt="STEVE" class="h-full object-cover" />
+              <img src="./dev.png" alt="STEVE" class="h-full object-cover" />
             </div>
             <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
               <h1 class="text-3xl font-newton">STEVE</h1>
-              <h3 class="text-xl font-semibold mt-4">Developer</h3>
+              <h3 class="text-xl font-NORWESTER font-semibold mt-4">
+                Developer
+              </h3>
               {/* <button class="mt-4">
                             <a target="_blank" rel="noreferrer"
                             ><svg
@@ -52,14 +54,16 @@ export default function Team() {
           >
             <div class="h-96">
               <img
-                src="./team2.PNG"
+                src="./pgmanager.PNG"
                 alt="HORRISH"
                 class="h-full object-cover"
               />
             </div>
             <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
               <h1 class="text-3xl font-newton">HORRISH</h1>
-              <h3 class="text-xl font-semibold mt-4">Project Manager</h3>
+              <h3 class="text-xl font-NORWESTER font-semibold mt-4">
+                Project Manager
+              </h3>
               {/* <button class="mt-4">
                             <a target="_blank" rel="noreferrer"
                             ><svg
@@ -83,11 +87,13 @@ export default function Team() {
             data-aos="zoom-out"
           >
             <div class="h-96">
-              <img src="./team3.PNG" alt="DUKE" class="h-full object-cover" />
+              <img src="./content.PNG" alt="DUKE" class="h-full object-cover" />
             </div>
             <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
               <h1 class="text-3xl font-newton">DUKE</h1>
-              <h3 class="text-xl font-semibold mt-4 ">Content Creator</h3>
+              <h3 class="text-xl font-NORWESTER font-semibold mt-4 ">
+                Content Creator
+              </h3>
               {/* <button class="mt-4">
                             <a target="_blank" rel="noreferrer"
                             ><svg
@@ -115,7 +121,7 @@ export default function Team() {
             </div>
             <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
               <h1 class="text-3xl font-newton">JARED</h1>
-              <h3 class="text-xl font-semibold mt-4">Artist</h3>
+              <h3 class="text-xl font-NORWESTER font-semibold mt-4">Artist</h3>
               <button class="mt-4">
                 <a
                   href="https://twitter.com/j3concepts"

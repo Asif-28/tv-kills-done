@@ -30,6 +30,10 @@ html {
   font-family: "BAD";
   src: url("../public/Bad Signal.otf");
 }
+@font-face {
+  font-family: "NORWESTER";
+  src: url("../public/norwester.otf");
+}
 
 body {
   /* background: linear-gradient(to right, #434343, #000000); */

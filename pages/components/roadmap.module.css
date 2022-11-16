@@ -177,7 +177,7 @@
   bottom: 50vh;
   z-index: auto;
   width: 3px;
-  height: 1200px;
+  height: 1260px;
   background-color: #fff;
   background-image: -webkit-gradient(
     linear,
@@ -193,14 +193,15 @@
 }
 @media (max-width: 768px) {
   .timeline_progress_bar {
-    height: 1400px;
+    height: 1320px;
     position: absolute;
     transform: translateX(-41vw);
   }
 }
+
 @media (max-width: 400px) {
   .timeline_progress_bar {
-    height: 1500px;
+    height: 1420px;
     position: absolute;
     transform: translateX(-45vw);
   }
