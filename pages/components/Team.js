@@ -113,7 +113,7 @@ export default function Team() {
             data-aos="fade-left"
           >
             <div class="h-96  ">
-              <img src="./untitled-trans 4.PNG" alt="JARED" class="h-full  " />
+              <img src="./Untitled-trans 4.PNG" alt="JARED" class="h-full " />
             </div>
             <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
               <h1 class="text-3xl font-newton">JARED</h1>
