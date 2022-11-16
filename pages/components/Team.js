@@ -53,11 +53,7 @@ export default function Team() {
             data-aos="zoom-out"
           >
             <div class="h-96">
-              <img
-                src="./pgmanager.PNG"
-                alt="HORRISH"
-                class="h-full object-cover"
-              />
+              <img src="./pgmanager.PNG" alt="HORRISH" class="h-full " />
             </div>
             <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
               <h1 class="text-3xl font-newton">HORRISH</h1>
@@ -87,7 +83,7 @@ export default function Team() {
             data-aos="zoom-out"
           >
             <div class="h-96">
-              <img src="./content.PNG" alt="DUKE" class="h-full object-cover" />
+              <img src="./content.PNG" alt="DUKE" class="h-full " />
             </div>
             <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
               <h1 class="text-3xl font-newton">DUKE</h1>
@@ -117,7 +113,7 @@ export default function Team() {
             data-aos="fade-left"
           >
             <div class="h-96">
-              <img src="./team4.PNG" alt="JARED" class="h-full object-cover" />
+              <img src="./team4.PNG" alt="JARED" class="h-full " />
             </div>
             <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
               <h1 class="text-3xl font-newton">JARED</h1>
