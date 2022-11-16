@@ -33,7 +33,7 @@ export default function Faq() {
       {" "}
       <h1
         id="faq"
-        class="text-4xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white text-center font-newton aos-init"
+        class="text-4xl mb-10 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white text-center font-newton aos-init"
         data-aos="zoom-in-up"
       >
         FAQ
