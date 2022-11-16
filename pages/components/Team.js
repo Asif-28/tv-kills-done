@@ -113,7 +113,11 @@ export default function Team() {
             data-aos="fade-left"
           >
             <div class="h-96  ">
-              <img src="./artist.png" alt="JARED" class="h-full " />
+              <img
+                src="./artist.png"
+                alt="JARED"
+                class="h-full object-cover "
+              />
             </div>
             <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
               <h1 class="text-3xl font-newton">JARED</h1>

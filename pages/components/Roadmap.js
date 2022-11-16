@@ -167,7 +167,7 @@ export default function Roadmap() {
                   </div>
                   <div className="lg:text-lg md:text-base sm:text-sm my-2 md:tracking-wide">
                     The utility and staking of the Cultpass and the main drop
-                    will be revealed soon in Discord .
+                    will be revealed soon in Discord.
                   </div>
                 </div>
               </div>
