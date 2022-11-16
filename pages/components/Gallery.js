@@ -31,38 +31,38 @@ export const data = [
     cover: "./5.PNG",
     title: "Demon Slayer",
   },
-  {
-    cover: "./3.PNG",
-    title: "Attack On Titan",
-  },
-  {
-    cover: "./1.PNG",
-    title: "picture 1",
-  },
-  {
-    cover: "./2.PNG",
-    title: "picture 2",
-  },
-  {
-    cover: "./3.PNG",
-    title: "picture 3",
-  },
-  {
-    cover: "./4.PNG",
-    title: "picture 4",
-  },
-  {
-    cover: "./5.PNG",
-    title: "picture 5",
-  },
-  {
-    cover: "./1.PNG",
-    title: "picture 6",
-  },
-  {
-    cover: "./2.PNG",
-    title: "picture 7",
-  },
+  // {
+  //   cover: "./3.PNG",
+  //   title: "Attack On Titan",
+  // },
+  // {
+  //   cover: "./1.PNG",
+  //   title: "picture 1",
+  // },
+  // {
+  //   cover: "./2.PNG",
+  //   title: "picture 2",
+  // },
+  // {
+  //   cover: "./3.PNG",
+  //   title: "picture 3",
+  // },
+  // {
+  //   cover: "./4.PNG",
+  //   title: "picture 4",
+  // },
+  // {
+  //   cover: "./5.PNG",
+  //   title: "picture 5",
+  // },
+  // {
+  //   cover: "./1.PNG",
+  //   title: "picture 6",
+  // },
+  // {
+  //   cover: "./2.PNG",
+  //   title: "picture 7",
+  // },
 ];
 
 export default function Gallery(props) {
