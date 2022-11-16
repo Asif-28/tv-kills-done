@@ -10,7 +10,7 @@ export default function Team() {
   }, []);
   return (
     <>
-      <div class="py-20 mb-12 overflow-x-hidden overflow-y-hidden" id="team">
+      <div class=" mb-12 overflow-x-hidden overflow-y-hidden" id="team">
         <h1
           class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-center text-4xl font-newton aos-init"
           data-aos="zoom-in-up"
