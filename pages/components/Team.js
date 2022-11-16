@@ -112,8 +112,8 @@ export default function Team() {
             class="flex flex-col bg-white w-fit text-black aos-init max-h-[70vh] max-w-[95vw] mb-36"
             data-aos="fade-left"
           >
-            <div class="h-96">
-              <img src="./team4.PNG" alt="JARED" class="h-full " />
+            <div class="h-96  ">
+              <img src="./untitled-trans 4.PNG" alt="JARED" class="h-full  " />
             </div>
             <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
               <h1 class="text-3xl font-newton">JARED</h1>

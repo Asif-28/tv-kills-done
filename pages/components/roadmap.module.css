@@ -206,6 +206,13 @@
     transform: translateX(-45vw);
   }
 }
+@media (min-width: 769px) and (max-width: 840px) {
+  .timeline_progress_bar {
+    height: 1400px;
+    position: absolute;
+    transform: translateX(0vw);
+  }
+}
 
 .section_timeline {
   position: relative;
